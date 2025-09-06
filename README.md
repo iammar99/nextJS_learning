@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My First Next.js APP
 
-## Getting Started
 
-First, run the development server:
+This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Codevolution](https://www.youtube.com/@Codevolution) . Here is the Link to the [PLaylist](https://www.youtube.com/playlist?list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI) . It contain 72 Lectures from beggining of **NEXT.js** 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Table Of Content
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [My First Next.js APP](#my-first-nextjs-app)
+  - [Table Of Content](#table-of-content)
+  - [Lecture no 1](#lecture-no-1)
+  - [Lecture no 2](#lecture-no-2)
+  - [Lecture no 3](#lecture-no-3)
+  - [Lecture no 4](#lecture-no-4)
+  - [Lecture no 5](#lecture-no-5)
+  - [Lecture no 6](#lecture-no-6)
+  - [Lecture no 7](#lecture-no-7)
+  - [Lecture no 8](#lecture-no-8)
+  - [Lecture no 9](#lecture-no-9)
+  - [Lecture no 10](#lecture-no-10)
+  - [Lecture no 11](#lecture-no-11)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Lecture no 1
+ - Introduction To next js 
+  
 
-To learn more about Next.js, take a look at the following resources:
+## Lecture no 2
+ - How to print Hello World
+  
+## Lecture no 3
+ - Understanding the Folder Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Lecture no 4
+ - Some Server Client introduction
+  
+## Lecture no 5
+ - Simple Routing 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Lecture no 6 
+ - Nested Routing 
+  
+## Lecture no 7
+ - Dynamic Routing
+  
+## Lecture no 8
+ - Nested Dynamic Routing
+  
+## Lecture no 9
+ - Catch All Segments
+  <br/>
+It is similar to dynamic nested routing but it is slightly different in syntax and usage 
 
-## Deploy on Vercel
+## Lecture no 10
+  - Not Found Page
+  <br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We can create custom Not found for the webSite and also create dynamic not Found File for a file
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Lecture no 11
+  - File colocation 
+  <br>
+
+It is used to increase readabilty of the project
