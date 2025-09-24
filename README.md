@@ -24,6 +24,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
 ## Lecture no 1
  - Introduction To next js 
   
+  **"An Important Point"** - All components are server components by default and if you want to make a component client component just use use Client component on top like this ```"use client"``` 
 
 ## Lecture no 2
  - How to print Hello World
@@ -37,25 +38,48 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
 ## Lecture no 5
  - Simple Routing 
 
+ Routing in Next.js is simple . You don't need to set up a proper routing it will indentify automatically by your folder structure 
+ **page.tsx** file in app folder will be home page 
+ and pages will be displayed by the folder structure e.g. If name of folder is **about** containing **page.tsx** about route will display this
+
+
 ## Lecture no 6 
  - Nested Routing 
+
+
+ It is Simple as above just create nested folders in parent folder for nesting route
   
 ## Lecture no 7
  - Dynamic Routing
+
+ It is also not that difficult as what you need to do is just write folder name in square brackets just like I do look in product folder
+
+ We can also get that dynamic route data in props as we get in react
+
+ `Go Look for the code` 
   
 ## Lecture no 8
  - Nested Dynamic Routing
+
+ It is as same as static nesting routing 
+
+ `Just Go look for code in product folder`
   
 ## Lecture no 9
  - Catch All Segments
   <br/>
-It is similar to dynamic nested routing but it is slightly different in syntax and usage 
+It is similar to dynamic nested routing but it is slightly different in syntax and usage We just need to create a **[...slugs]** and it will avoid you to create multiple nesting
+`Look for code in docs folder`
 
 ## Lecture no 10
   - Not Found Page
   <br>
 
 We can create custom Not found for the webSite and also create dynamic not Found File for a file
+We can also create not found page for the different folder depending on different scenario
+
+Just name your file Not-found and it will work as not found
+
 
 ## Lecture no 11
   - File colocation 
