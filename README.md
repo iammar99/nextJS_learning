@@ -93,3 +93,10 @@ It is used to increase readabilty of the project. It is a concept that tells tha
   <br>
 
 It is used to create private folders means telling NEXT.js that these folders are just for internal purposes don't create route for it . It is done by creating a folder starting from underscore **_[foldername]** but what if you want underscore in you r url then use **%5F** in folder name. But better approach is to create folder outside app folder to avoide it from routing
+
+
+## Lecture No 13
+  - Route Groups
+  <br>
+It is a concept to manage folder in an organized way. Like keeping all *Authentication* files in **Auth** Folder but It will effect URL If you want to avoid effecting URL. just wrap folder name in **()**  
+`Look for code in auth folder`
