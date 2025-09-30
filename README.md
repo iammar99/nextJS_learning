@@ -100,3 +100,11 @@ It is used to create private folders means telling NEXT.js that these folders ar
   <br>
 It is a concept to manage folder in an organized way. Like keeping all *Authentication* files in **Auth** Folder but It will effect URL If you want to avoid effecting URL. just wrap folder name in **()**  
 `Look for code in auth folder`
+
+
+## Lecture No 14
+  - Layouts
+  <br>
+  It is how page will render on the browser. A layout file will be pre defined by NEXT.js if you delete it, It will be created again
+`Look for code in |Layout.tsx| file`
+We can edit according to our need
