@@ -154,3 +154,13 @@ We can edit according to our need
   <br>
   It is a concept that how to style active links 
   `Look in Auth Folders`
+
+
+## Lecture No 21
+  - Params and Search Params
+  <br>
+  It is a concept how to destructure URL 
+  `Look in Articles Folders`
+  **Note**:- search params are not available in layout.tsx
+  **Note**:- async/await will not work in client component so you may use **use** from react in this
+  `Look for code in [articlesID] file`
