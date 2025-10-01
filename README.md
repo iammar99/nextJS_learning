@@ -147,3 +147,10 @@ We can edit according to our need
   **Link** is used for navigating from one page to another.
   Another important thing in Link is replace atribute it will replace all navigation history
   `Look in home and page files`
+
+
+## Lecture No 20
+  - Active Link
+  <br>
+  It is a concept that how to style active links 
+  `Look in Auth Folders`
