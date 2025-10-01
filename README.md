@@ -108,3 +108,10 @@ It is a concept to manage folder in an organized way. Like keeping all *Authenti
   It is how page will render on the browser. A layout file will be pre defined by NEXT.js if you delete it, It will be created again
 `Look for code in |Layout.tsx| file`
 We can edit according to our need
+
+
+## Lecture No 15
+  - Nested Layouts
+  <br>
+  We can create a layout for specific route. 
+`Look for code in |Layout.tsx| file in Auth Folder`
