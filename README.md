@@ -139,3 +139,11 @@ We can edit according to our need
    - Default:- Default title for the page
    - Template:- Dynamic Route 
    - Absolute:- It will overwrite the default Value
+
+
+## Lecture No 19
+  - Navigation using Link
+  <br>
+  **Link** is used for navigating from one page to another.
+  Another important thing in Link is replace atribute it will replace all navigation history
+  `Look in home and page files`
