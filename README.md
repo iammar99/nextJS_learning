@@ -129,3 +129,13 @@ We can edit according to our need
   <br>
   In layout file we can see there is a meta data object which contain title and description we can have different titles for different route same as layout but we can also have dynamic title as of dynamic routes. We can also give a title to specific page 
   `Look in Layout.tsx in frontend and also in login page`
+
+
+## Lecture No 18
+  - Furthur Explaining Meta Data
+  <br>
+  We can also set meta data in a different way 
+  `Look in Layout.tsx in frontend and also in login page`
+   - Default:- Default title for the page
+   - Template:- Dynamic Route 
+   - Absolute:- It will overwrite the default Value
