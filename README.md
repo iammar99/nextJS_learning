@@ -115,3 +115,10 @@ We can edit according to our need
   <br>
   We can create a layout for specific route. 
 `Look for code in |Layout.tsx| file in Auth Folder`
+
+
+## Lecture No 15
+  - Multiple Route Layout
+  <br>
+  We can create a specific route by creating route groups as we did class 13. 
+`Look for code in sub forlders of app Folder`
