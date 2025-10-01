@@ -122,3 +122,9 @@ We can edit according to our need
   <br>
   We can create a specific route by creating route groups as we did class 13. 
 `Look for code in sub forlders of app Folder`
+
+
+## Lecture No 17
+  - Handling Meta Data
+  <br>
+  In layout file we can see there is a meta data object which contain title and description we can have different titles for different route same as layout but we can also have dynamic title as of dynamic routes
