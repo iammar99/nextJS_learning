@@ -127,4 +127,5 @@ We can edit according to our need
 ## Lecture No 17
   - Handling Meta Data
   <br>
-  In layout file we can see there is a meta data object which contain title and description we can have different titles for different route same as layout but we can also have dynamic title as of dynamic routes
+  In layout file we can see there is a meta data object which contain title and description we can have different titles for different route same as layout but we can also have dynamic title as of dynamic routes. We can also give a title to specific page 
+  `Look in Layout.tsx in frontend and also in login page`
