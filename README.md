@@ -164,3 +164,17 @@ We can edit according to our need
   **Note**:- search params are not available in layout.tsx
   **Note**:- async/await will not work in client component so you may use **use** from react in this
   `Look for code in [articlesID] file`
+
+
+## Lecture No 22
+  - Navigating programmatically
+  <br>
+  We can use **useRouter** for navigating programmatically 
+  `Look in  products folder`
+  There are multiple option 
+  we can move 
+  1. Forward in navigation
+  2. backward in navigation
+  3. replace
+  We can also use redirect to redirect to another page 
+  `Look for code in [productsId] file`
