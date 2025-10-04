@@ -19,6 +19,23 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture no 9](#lecture-no-9)
   - [Lecture no 10](#lecture-no-10)
   - [Lecture no 11](#lecture-no-11)
+  - [Lecture no 12](#lecture-no-12)
+  - [Lecture No 13](#lecture-no-13)
+  - [Lecture No 14](#lecture-no-14)
+  - [Lecture No 15](#lecture-no-15)
+  - [Lecture No 16](#lecture-no-16)
+  - [Lecture No 17](#lecture-no-17)
+  - [Lecture No 18](#lecture-no-18)
+  - [Lecture No 19](#lecture-no-19)
+  - [Lecture No 20](#lecture-no-20)
+  - [Lecture No 21](#lecture-no-21)
+  - [Lecture No 22](#lecture-no-22)
+  - [Lecture No 23](#lecture-no-23)
+  - [Lecture No 24](#lecture-no-24)
+  - [Lecture No 25](#lecture-no-25)
+  - [Lecture No 26](#lecture-no-26)
+  - [Lecture No 27](#lecture-no-27)
+  - [Lecture No 28](#lecture-no-28)
 
 
 ## Lecture no 1
@@ -214,3 +231,11 @@ We can edit according to our need
   <br>
   When you put error files in a folder all nested folders are covered
   `Look for error file in products Folder`
+
+
+
+## Lecture No 28
+  - Handling Layout Error
+  <br>
+  If a layout and Error file is in same route then if there occur any error in layout error file will not catch it.
+  If you want error to catch layout errors then place error in parent
