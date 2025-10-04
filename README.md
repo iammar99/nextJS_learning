@@ -199,4 +199,11 @@ We can edit according to our need
   <br>
   This files loads when any error occurs without disturbing the app.
   This file wraps all files and there nested files you can also create different for different segments
-  `Look for loading file in blog Folder`
+  `Look for error file in [productId] Folder`
+
+
+## Lecture No 26
+  - Recovering from error
+  <br>
+  It is used to recover from error 
+  `Look for error file in [productId] Folder`
