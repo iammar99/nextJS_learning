@@ -178,3 +178,10 @@ We can edit according to our need
   3. replace
   We can also use redirect to redirect to another page 
   `Look for code in [productsId] file`
+
+
+## Lecture No 23
+  - Templates
+  <br>
+  Templates file is same as layout file but difference is that in layout file states are preserved but in templete file page is freshly rendered, effects are runned and states are not preserved
+  `Look for file in auth Folder`
