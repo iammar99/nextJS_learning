@@ -36,6 +36,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 26](#lecture-no-26)
   - [Lecture No 27](#lecture-no-27)
   - [Lecture No 28](#lecture-no-28)
+  - [Lecture No 29](#lecture-no-29)
 
 
 ## Lecture no 1
@@ -239,3 +240,11 @@ We can edit according to our need
   <br>
   If a layout and Error file is in same route then if there occur any error in layout error file will not catch it.
   If you want error to catch layout errors then place error in parent
+
+
+
+## Lecture No 29
+  - Handling Root Error
+  <br>
+  If an error occurs in root then obviously there is not any error wrapper so error file will not trigger. So overcome this there is file called global error 
+  `Look for the code in app folder`
