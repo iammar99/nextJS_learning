@@ -207,3 +207,10 @@ We can edit according to our need
   <br>
   It is used to recover from error 
   `Look for error file in [productId] Folder`
+
+
+## Lecture No 27
+  - Handling Nested Error
+  <br>
+  When you put error files in a folder all nested folders are covered
+  `Look for error file in products Folder`
