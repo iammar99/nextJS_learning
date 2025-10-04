@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 
 import { redirect } from "next/navigation";
 export default function ProductDetail({
@@ -6,6 +6,14 @@ export default function ProductDetail({
 }: {
     params: { productId: string }
 }) {
+    function generate(count: number): number {
+        return Math.floor(Math.random() * count)
+    }
+    const random = generate(2)
+    if (random == 0) {
+        console.log("Error")
+        throw new Error("Error Loading Product")
+    }
 
     if (parseInt(params.productId) > 100) {
         redirect("/")

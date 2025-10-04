@@ -192,3 +192,11 @@ We can edit according to our need
   <br>
   This files loads when your content is being load automatically.
   `Look for loading file in blog Folder`
+
+
+## Lecture No 25
+  - Error Files
+  <br>
+  This files loads when any error occurs without disturbing the app.
+  This file wraps all files and there nested files you can also create different for different segments
+  `Look for loading file in blog Folder`
