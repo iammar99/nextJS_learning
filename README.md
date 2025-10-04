@@ -185,3 +185,10 @@ We can edit according to our need
   <br>
   Templates file is same as layout file but difference is that in layout file states are preserved but in templete file page is freshly rendered, effects are runned and states are not preserved
   `Look for file in auth Folder`
+
+
+## Lecture No 24
+  - Loading Files
+  <br>
+  This files loads when your content is being load automatically.
+  `Look for loading file in blog Folder`
