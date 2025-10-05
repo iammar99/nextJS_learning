@@ -1,4 +1,4 @@
-import "./style.css"
+import "./global.css"
 
 export const metadata = {
     title: 'Next.js',
@@ -12,9 +12,9 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body style={{ margin: "0", padding: "0", boxSizing: "border-box", display: "flex", flexDirection: "column", minHeight: "100vh" }}>
-                {children}
-            </body>
+                <body style={{ margin: "0", padding: "0", boxSizing: "border-box", display: "flex", flexDirection: "column", minHeight: "100vh" }}>
+                    {children}
+                </body>
         </html>
     )
 }

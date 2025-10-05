@@ -248,3 +248,5 @@ We can edit according to our need
   <br>
   If an error occurs in root then obviously there is not any error wrapper so error file will not trigger. So overcome this there is file called global error 
   `Look for the code in app folder`
+
+  This will only work in production mode So if you want to check it go for **npm run build** command to start production server and **npm run start** to start localhost
