@@ -7,10 +7,10 @@ export default function Notifications() {
       setTimeout(() => {
         resolve(
           <Card>
-            <div>
-                Notifications
-            </div><br />&nbsp;&nbsp;&nbsp;
-            <Link href="/dashboard/archieved">Archieved</Link>
+            <span>
+                Archieved Notifications
+            </span><br />&nbsp;&nbsp;
+            <Link href="/dashboard">Back</Link>
           </Card>
         )
       }, 1000)

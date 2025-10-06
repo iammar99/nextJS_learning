@@ -38,6 +38,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 28](#lecture-no-28)
   - [Lecture No 29](#lecture-no-29)
   - [Lecture No 30](#lecture-no-30)
+  - [Lecture No 31](#lecture-no-31)
 
 
 ## Lecture no 1
@@ -258,5 +259,14 @@ We can edit according to our need
   - Parallel Routes
   <br>
   It is a way to manage multiple section in a page. It can be done by different ways but parallel routes is the best way. In Parallel routes sections can be created by @**section-name**
+  It also help in sub navigation
+  `Look for the code in dashboard folder inside (dashboard) Folder`
+
+
+
+## Lecture No 31
+  - Unmatched Routes
+  <br>
+  We can navigate between sub routes without disturbing the orginal routes. but when we will refresh the page 404 Error will occur so we need a default.tsx file for all of the parallel routes is needed
    
   `Look for the code in dashboard folder inside (dashboard) Folder`

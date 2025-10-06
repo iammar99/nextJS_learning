@@ -10,7 +10,7 @@ export default function Notifications() {
             <div>
                 Notifications
             </div><br />&nbsp;&nbsp;&nbsp;
-            <Link href="/dashboard/archieved">Archieved</Link>
+            <Link href="/dashboard/archieved">Default Archieved</Link>
           </Card>
         )
       }, 1000)
