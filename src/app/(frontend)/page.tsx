@@ -5,11 +5,13 @@ export default function Home() {
    return (
       <>
          <h1>Home</h1>
-         <Link href={"/blog"}>Blog</Link>
+         <Link className="text-blue-600 hover:underline" href={"/blog"}>Blog</Link>
          <br />
-         <Link href={"/products"}>Products</Link>
+         <Link className="text-blue-600 hover:underline" href={"/products"}>Products</Link>
          <br />
-         <Link href={"/login"}>Auth</Link>
+         <Link className="text-blue-600 hover:underline" href={"/login"}>Auth</Link>
+         <br />
+         <Link className="text-blue-600 hover:underline" href={"/f2/f1"}>F1</Link>
          <br />
          <Link href={"/articles/breaking-news-123?lang=en"} className="text-blue-600 hover:underline">Read Article in English</Link>
          <br />

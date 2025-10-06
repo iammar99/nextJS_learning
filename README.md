@@ -40,6 +40,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 30](#lecture-no-30)
   - [Lecture No 31](#lecture-no-31)
   - [Lecture No 32](#lecture-no-32)
+  - [Lecture No 33](#lecture-no-33)
 
 
 ## Lecture no 1
@@ -280,3 +281,12 @@ We can edit according to our need
   We can implement routes according to different conditions
   
   `Look for the code in dashboard folder inside (dashboard) Folder`
+
+
+
+## Lecture No 33
+  - intercepting Routes
+  <br>
+  We can implement one route inside other routes layout
+
+  `Look for the code in f1 folder inside (fronend) Folder`
