@@ -39,6 +39,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 29](#lecture-no-29)
   - [Lecture No 30](#lecture-no-30)
   - [Lecture No 31](#lecture-no-31)
+  - [Lecture No 32](#lecture-no-32)
 
 
 ## Lecture no 1
@@ -269,4 +270,13 @@ We can edit according to our need
   <br>
   We can navigate between sub routes without disturbing the orginal routes. but when we will refresh the page 404 Error will occur so we need a default.tsx file for all of the parallel routes is needed
    
+  `Look for the code in dashboard folder inside (dashboard) Folder`
+
+
+
+## Lecture No 32
+  - Conditional Routes
+  <br>
+  We can implement routes according to different conditions
+  
   `Look for the code in dashboard folder inside (dashboard) Folder`
