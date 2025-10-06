@@ -37,6 +37,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 27](#lecture-no-27)
   - [Lecture No 28](#lecture-no-28)
   - [Lecture No 29](#lecture-no-29)
+  - [Lecture No 30](#lecture-no-30)
 
 
 ## Lecture no 1
@@ -250,3 +251,12 @@ We can edit according to our need
   `Look for the code in app folder`
 
   This will only work in production mode So if you want to check it go for **npm run build** command to start production server and **npm run start** to start localhost
+
+
+
+## Lecture No 30
+  - Parallel Routes
+  <br>
+  It is a way to manage multiple section in a page. It can be done by different ways but parallel routes is the best way. In Parallel routes sections can be created by @**section-name**
+   
+  `Look for the code in dashboard folder inside (dashboard) Folder`

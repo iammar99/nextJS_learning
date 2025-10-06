@@ -2,7 +2,7 @@
 export default function page () {
     return (
         <h1>
-            Dashboard 
+            Dashboard Layout 
         </h1>
     )
 }
