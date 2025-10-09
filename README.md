@@ -43,6 +43,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 33](#lecture-no-33)
   - [Lecture No 34](#lecture-no-34)
   - [Lecture No 35](#lecture-no-35)
+  - [Lecture No 36](#lecture-no-36)
 
 
 ## Lecture no 1
@@ -313,3 +314,11 @@ We can edit according to our need
   If there is a 2 files in a folder one with route handler and second one is page.tsx the route file is over written
 
   `Look for the code in (backend API) folder`
+
+
+## Lecture No 36
+  - GET Routes Handler
+  <br>
+  Same as above
+
+  `Look for the code in (backend API)/products-b folder`
