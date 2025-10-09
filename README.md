@@ -41,7 +41,8 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 31](#lecture-no-31)
   - [Lecture No 32](#lecture-no-32)
   - [Lecture No 33](#lecture-no-33)
-  - [Lecture No 33](#lecture-no-33-1)
+  - [Lecture No 34](#lecture-no-34)
+  - [Lecture No 35](#lecture-no-35)
 
 
 ## Lecture no 1
@@ -293,7 +294,7 @@ We can edit according to our need
   `Look for the code in f1 folder inside (fronend) Folder`
 
 
-## Lecture No 33
+## Lecture No 34
   - Parallel intercepting Routes
   <br>
   We can also implement parallel intercepting routes
@@ -301,3 +302,14 @@ We can edit according to our need
   `Look for the code in photofeed folder inside (dashboard) Folder and specially it wil only work in production mode`
 
 `I stuck on it for three days after that I overcome it by starting production server but now it is also working on development server and lastly layout file is also important`
+
+
+## Lecture No 35
+  - Routes Handler
+  <br>
+  Route handlers help organising your API's. The convention is make **route.ts** file in **folder** and function name should be the method e.g. **(GET,POST etc)**
+  We can also do nesting
+
+  If there is a 2 files in a folder one with route handler and second one is page.tsx the route file is over written
+
+  `Look for the code in (backend API) folder`
