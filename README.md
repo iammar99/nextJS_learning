@@ -44,6 +44,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 34](#lecture-no-34)
   - [Lecture No 35](#lecture-no-35)
   - [Lecture No 36](#lecture-no-36)
+  - [Lecture No 37](#lecture-no-37)
 
 
 ## Lecture no 1
@@ -320,5 +321,13 @@ We can edit according to our need
   - GET Routes Handler
   <br>
   Same as above
+
+  `Look for the code in (backend API)/products-b folder`
+
+
+## Lecture No 37
+  - POST Routes Handler
+  <br>
+  Handling POST request is also same as GET
 
   `Look for the code in (backend API)/products-b folder`
