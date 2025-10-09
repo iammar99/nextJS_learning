@@ -41,6 +41,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 31](#lecture-no-31)
   - [Lecture No 32](#lecture-no-32)
   - [Lecture No 33](#lecture-no-33)
+  - [Lecture No 33](#lecture-no-33-1)
 
 
 ## Lecture no 1
@@ -290,3 +291,13 @@ We can edit according to our need
   We can implement one route inside other routes layout
 
   `Look for the code in f1 folder inside (fronend) Folder`
+
+
+## Lecture No 33
+  - Parallel intercepting Routes
+  <br>
+  We can also implement parallel intercepting routes
+
+  `Look for the code in photofeed folder inside (dashboard) Folder and specially it wil only work in production mode`
+
+`I stuck on it for three days after that I overcome it by starting production server but now it is also working on development server and lastly layout file is also important`

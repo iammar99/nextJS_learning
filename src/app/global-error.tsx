@@ -1,13 +1,16 @@
-"use client"; 
+"use client";
 
 import "./global.css";
 
-export default function GlobalError() {
+export default function GlobalError({ error }: { error: Error }) {
   return (
     <html lang="en">
       <body>
         <div className="flex flex-col items-center justify-center min-h-screen">
           <h2 className="text-2xl font-bold mb-4">Something went wrong!</h2>
+          <h1 className="my-3">{error.name}</h1>
+          <p className="my-2">{error.stack}</p>
+          <p className="my-3">{error.message}</p>
           <button
             onClick={() => {
               // refresh the page
