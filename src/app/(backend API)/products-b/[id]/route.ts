@@ -6,11 +6,31 @@ export async function GET(
 ) {
   const { id } = params;
 
-  const comment = data.find((prod) => prod.id === Number(id));
+  const product = data.find((prod) => prod.id === Number(id));
 
-  if (!comment) {
+  if (!product) {
     return new Response(JSON.stringify({ error: "Not found" }), { status: 404 });
   }
 
-  return Response.json(comment);
+  return Response.json(product);
+}
+
+
+export async function PATCH(
+  _request: Request,
+  { params }: { params: { id: string } }
+) {
+  const { id } = await params;
+  const body = await _request.json()
+  const {name} = body
+
+
+  const product = data.find((prod) => prod.id === Number(id));
+  product.name = name
+
+  if (!product) {
+    return new Response(JSON.stringify({ error: "Not found" }), { status: 404 });
+  }
+
+  return Response.json(product);
 }

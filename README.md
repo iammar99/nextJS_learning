@@ -46,6 +46,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 36](#lecture-no-36)
   - [Lecture No 37](#lecture-no-37)
   - [Lecture No 38](#lecture-no-38)
+  - [Lecture No 39](#lecture-no-39)
 
 
 ## Lecture no 1
@@ -338,5 +339,14 @@ We can edit according to our need
   - Dynamic Routes Handler
   <br>
   Handling Dynamic routes is as same as dynamic folder routing
+
+  `Look for the code in (backend API)/products-b folder`
+
+
+
+## Lecture No 39
+  - PATCH Routes Handler
+  <br>
+   PATCH is used for updating the document 
 
   `Look for the code in (backend API)/products-b folder`
