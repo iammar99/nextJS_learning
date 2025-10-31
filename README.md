@@ -51,6 +51,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 41](#lecture-no-41)
   - [Lecture No 42](#lecture-no-42)
   - [Lecture No 43](#lecture-no-43)
+  - [Lecture No 44](#lecture-no-44)
 
 
 ## Lecture no 1
@@ -389,4 +390,14 @@ We can edit according to our need
   <br>
   We have discussed Cookies in Backend Course. Here we will see how to use Nect.js
   
+  `Look for the code in (backend API)/products-b folder`
+
+
+
+
+## Lecture No 44
+  - Redirects in Route Handler
+  <br>
+  Redirect simply means Redirecting Routes to another
+
   `Look for the code in (backend API)/products-b folder`

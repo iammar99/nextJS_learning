@@ -1,10 +1,14 @@
 import { NextRequest } from "next/server";
 import { data } from "./data"
 import { cookies, headers } from "next/headers";
+import { redirect } from "next/navigation"; 
 
 export async function GET(request: NextRequest) {
+
   // const requestHeader = new Headers(request.headers)
   // console.log(requestHeader.get("Authorization"))
+
+  redirect("/products-b/v2")
 
   const Header = await headers()
   console.log(Header.get("Authorization"))
