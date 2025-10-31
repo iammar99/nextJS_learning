@@ -43,3 +43,5 @@ export async function DELETE(
   data.splice(index,1)
   return Response.json(data)
 }
+
+

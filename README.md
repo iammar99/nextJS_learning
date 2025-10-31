@@ -48,6 +48,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 38](#lecture-no-38)
   - [Lecture No 39](#lecture-no-39)
   - [Lecture No 40](#lecture-no-40)
+  - [Lecture No 41](#lecture-no-41)
 
 
 ## Lecture no 1
@@ -360,3 +361,12 @@ We can edit according to our need
    DELETE is used for deleting the document 
 
   `Look for the code in (backend API)/products-b folder`
+
+
+
+## Lecture No 41
+  - URL Query Parameters
+  <br>
+   It is use to get search params from url 
+
+  `Look for the code in (backend API)/products-b/[id] folder`
