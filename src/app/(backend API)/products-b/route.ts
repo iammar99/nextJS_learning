@@ -1,6 +1,6 @@
 import { NextRequest } from "next/server";
 import { data } from "./data"
-import { headers } from "next/headers";
+import { cookies, headers } from "next/headers";
 
 export async function GET(request: NextRequest) {
   // const requestHeader = new Headers(request.headers)
@@ -11,8 +11,8 @@ export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
   const query = searchParams.get("query");
 
-  console.log("First product structure:", data[0]);
-  console.log("Query:", query);
+  // console.log("First product structure:", data[0]);
+  // console.log("Query:", query);
 
   const searchData = query
     ? data.filter((prod) => {
@@ -21,9 +21,22 @@ export async function GET(request: NextRequest) {
     })
     : data;
 
-  console.log("Filtered results:", searchData.length, "out of", data.length);
+    const theme = request.cookies.get("theme")
+    console.log(theme)
 
-  return Response.json(searchData);
+    const cookie = await cookies()
+    cookie.set("token","true")
+    console.log(cookie.get("theme"))
+
+  // console.log("Filtered results:", searchData.length, "out of", data.length);
+
+  return Response.json(searchData,{
+    headers:{
+      "Content-Type": "application/json",
+      "Set-Cookie": "theme=dark"
+    }
+
+  });
 }
 
 export async function POST(request: Request) {

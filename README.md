@@ -50,6 +50,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 40](#lecture-no-40)
   - [Lecture No 41](#lecture-no-41)
   - [Lecture No 42](#lecture-no-42)
+  - [Lecture No 43](#lecture-no-43)
 
 
 ## Lecture no 1
@@ -379,4 +380,13 @@ We can edit according to our need
   <br>
    There are 2 types Headers one to accept data one to send. Recieve headers like authorization and send like content-type
 
+  `Look for the code in (backend API)/products-b folder`
+
+
+
+## Lecture No 43
+  - Cookies in Route Handlers
+  <br>
+  We have discussed Cookies in Backend Course. Here we will see how to use Nect.js
+  
   `Look for the code in (backend API)/products-b folder`
