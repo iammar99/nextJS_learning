@@ -1,17 +1,22 @@
 import { NextRequest } from "next/server";
 import { data } from "./data"
+import { headers } from "next/headers";
 
 export async function GET(request: NextRequest) {
+  // const requestHeader = new Headers(request.headers)
+  // console.log(requestHeader.get("Authorization"))
+
+  const Header = await headers()
+  console.log(Header.get("Authorization"))
   const searchParams = request.nextUrl.searchParams;
   const query = searchParams.get("query");
 
-  // 🔍 DEBUG: Log the first product to see its structure
   console.log("First product structure:", data[0]);
   console.log("Query:", query);
 
   const searchData = query
     ? data.filter((prod) => {
-      console.log("Checking product:", prod); // See each product
+      console.log("Checking product:", prod); 
       return prod.name?.toLowerCase().includes(query.toLowerCase());
     })
     : data;
@@ -19,7 +24,6 @@ export async function GET(request: NextRequest) {
   console.log("Filtered results:", searchData.length, "out of", data.length);
 
   return Response.json(searchData);
-  // return Response.json(data)
 }
 
 export async function POST(request: Request) {

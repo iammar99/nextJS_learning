@@ -49,6 +49,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 39](#lecture-no-39)
   - [Lecture No 40](#lecture-no-40)
   - [Lecture No 41](#lecture-no-41)
+  - [Lecture No 42](#lecture-no-42)
 
 
 ## Lecture no 1
@@ -360,7 +361,7 @@ We can edit according to our need
   <br>
    DELETE is used for deleting the document 
 
-  `Look for the code in (backend API)/products-b folder`
+  `Look for the code in (backend API)/products-b/[id] folder`
 
 
 
@@ -369,4 +370,13 @@ We can edit according to our need
   <br>
    It is use to get search params from url 
 
-  `Look for the code in (backend API)/products-b/[id] folder`
+  `Look for the code in (backend API)/products-b folder`
+
+
+
+## Lecture No 42
+  - Headers in Route Handlers
+  <br>
+   There are 2 types Headers one to accept data one to send. Recieve headers like authorization and send like content-type
+
+  `Look for the code in (backend API)/products-b folder`
