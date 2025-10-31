@@ -1,47 +1,20 @@
-import { data } from "../data"
+import { NextRequest } from "next/server";
+import { data } from "../data"; // adjust path
 
-export async function GET(
-  _request: Request,
-  { params }: { params: { id: string } }
-) {
-  const { id } = params;
-
-  const product = data.find((prod) => prod.id === Number(id));
-
-  if (!product) {
-    return new Response(JSON.stringify({ error: "Not found" }), { status: 404 });
-  }
-
-  return Response.json(product);
+export async function GET(request: NextRequest) {
+  const searchParams = request.nextUrl.searchParams;
+  const query = searchParams.get("query");
+  
+  console.log("Query:", query);
+  
+  const searchData = query 
+    ? data.filter((prod) => {
+        console.log("Checking product:", prod);
+        return prod.name?.toLowerCase().includes(query.toLowerCase()); // ✅ TypeScript knows query is not null here
+      })
+    : data;
+  
+  console.log("Filtered results:", searchData.length);
+  
+  return Response.json(searchData);
 }
-
-
-export async function PATCH(
-  _request: Request,
-  { params }: { params: { id: string } }
-) {
-  const { id } = await params;
-  const body = await _request.json()
-  const { name } = body
-
-
-  const product = data.find((prod) => prod.id === Number(id));
-  product.name = name
-
-  if (!product) {
-    return new Response(JSON.stringify({ error: "Not found" }), { status: 404 });
-  }
-
-  return Response.json(product);
-}
-
-export async function DELETE(
-  _request: Request,
-  { params }: { params: { id: string } }
-) {
-  const index = data.findIndex((prod)=> prod.id === parseInt(params.id))
-  data.splice(index,1)
-  return Response.json(data)
-}
-
-

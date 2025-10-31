@@ -1,57 +1,52 @@
-import { NextRequest } from "next/server";
-import { data } from "./data"
+import { NextRequest, NextResponse } from "next/server";
+import { data } from "./data";
 import { cookies, headers } from "next/headers";
-import { redirect } from "next/navigation"; 
+// import { redirect } from "next/navigation";
 
 export async function GET(request: NextRequest) {
+  // Example: if you *really* want to redirect, do it conditionally
+  // redirect("/products-b/v2"); // ⚠️ Remove or move this below filters if not needed
 
-  // const requestHeader = new Headers(request.headers)
-  // console.log(requestHeader.get("Authorization"))
+  const Header = await headers();
+  console.log("Auth Header:", Header.get("Authorization"));
 
-  redirect("/products-b/v2")
-
-  const Header = await headers()
-  console.log(Header.get("Authorization"))
   const searchParams = request.nextUrl.searchParams;
-  const query = searchParams.get("query");
+  const query = searchParams.get("query") || ""; // ✅ prevent null
 
-  // console.log("First product structure:", data[0]);
-  // console.log("Query:", query);
-
+  // Safe filter
   const searchData = query
-    ? data.filter((prod) => {
-      console.log("Checking product:", prod); 
-      return prod.name?.toLowerCase().includes(query.toLowerCase());
-    })
+    ? data.filter((prod) =>
+        prod.name?.toLowerCase().includes(query.toLowerCase())
+      )
     : data;
 
-    const theme = request.cookies.get("theme")
-    console.log(theme)
+  const theme = request.cookies.get("theme");
+  console.log("Theme cookie:", theme?.value);
 
-    const cookie = await cookies()
-    cookie.set("token","true")
-    console.log(cookie.get("theme"))
+  const cookieStore = await cookies();
+  cookieStore.set("token", "true");
+  console.log("Theme after set:", cookieStore.get("theme"));
 
-  // console.log("Filtered results:", searchData.length, "out of", data.length);
-
-  return Response.json(searchData,{
-    headers:{
+  // Return response
+  return NextResponse.json(searchData, {
+    headers: {
       "Content-Type": "application/json",
-      "Set-Cookie": "theme=dark"
-    }
-
+      "Set-Cookie": "theme=dark",
+    },
   });
 }
 
 export async function POST(request: Request) {
-  const prod = await request.json()
+  const prod = await request.json();
   const newProd = {
     id: data.length + 1,
-    ...prod
-  }
-  data.push(newProd)
+    ...prod,
+  };
+
+  data.push(newProd);
+
   return new Response(JSON.stringify(data), {
     headers: { "Content-Type": "application/json" },
-    status: 201
-  })
+    status: 201,
+  });
 }

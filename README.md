@@ -52,6 +52,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 42](#lecture-no-42)
   - [Lecture No 43](#lecture-no-43)
   - [Lecture No 44](#lecture-no-44)
+  - [Lecture No 45](#lecture-no-45)
 
 
 ## Lecture no 1
@@ -401,3 +402,13 @@ We can edit according to our need
   Redirect simply means Redirecting Routes to another
 
   `Look for the code in (backend API)/products-b folder`
+
+
+## Lecture No 45
+  - Caching in Route Handlers
+  <br>
+  Caching is mostly used to avoid again again request to DB.
+
+  **It runs only in Production Mode**
+
+  `Look for the code in (backend API)/time folder`

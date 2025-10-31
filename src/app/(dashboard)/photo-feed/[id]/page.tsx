@@ -57,7 +57,7 @@ export default function UserDetail() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 py-10 px-6">
       <div className="bg-white rounded-xl shadow-lg p-6 max-w-md w-full text-center">
-        {/* <img
+        {/* <Image
           src={user.avatar}
           alt={user.name}
           className="w-32 h-32 object-cover rounded-full mx-auto mb-4 border-2 border-gray-300"

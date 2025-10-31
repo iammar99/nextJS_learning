@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Page() {
     interface User {
@@ -46,7 +47,7 @@ export default function Page() {
                 {users.slice(0, 12).map((user) => (
                     <Link key={user.id} href={`/photo-feed/${user.id}`}>
                         <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer">
-                            <img
+                            <Image
                                 src={user.avatar}
                                 alt={user.name}
                                 className="w-full h-48 object-cover"

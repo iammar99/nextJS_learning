@@ -1,4 +1,5 @@
 import Modal from "@/Components/modal";
+import Image from "next/image";
 
 export default async function PhotoModal({
   params,
@@ -14,7 +15,7 @@ export default async function PhotoModal({
     <Modal>
       <div className="p-4">
         <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer">
-          <img
+          <Image
             src={response.avatar}
             alt={response.name}
             className="w-full h-48 object-cover"
