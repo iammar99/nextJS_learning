@@ -47,6 +47,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 37](#lecture-no-37)
   - [Lecture No 38](#lecture-no-38)
   - [Lecture No 39](#lecture-no-39)
+  - [Lecture No 40](#lecture-no-40)
 
 
 ## Lecture no 1
@@ -348,5 +349,14 @@ We can edit according to our need
   - PATCH Routes Handler
   <br>
    PATCH is used for updating the document 
+
+  `Look for the code in (backend API)/products-b folder`
+
+
+
+## Lecture No 40
+  - DELETE Routes Handler
+  <br>
+   DELETE is used for deleting the document 
 
   `Look for the code in (backend API)/products-b folder`
