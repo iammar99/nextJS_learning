@@ -53,6 +53,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 43](#lecture-no-43)
   - [Lecture No 44](#lecture-no-44)
   - [Lecture No 45](#lecture-no-45)
+  - [Lecture No 46](#lecture-no-46)
 
 
 ## Lecture no 1
@@ -412,3 +413,11 @@ We can edit according to our need
   **It runs only in Production Mode**
 
   `Look for the code in (backend API)/time folder`
+
+
+## Lecture No 46
+  - Middlewares
+  <br>
+  Middleware is use to manage response and request in your app like authenticating, cookies ets.
+
+  `Look for the code in app/middleware.ts file`
