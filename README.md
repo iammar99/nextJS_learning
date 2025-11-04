@@ -54,7 +54,8 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 44](#lecture-no-44)
   - [Lecture No 45](#lecture-no-45)
   - [Lecture No 46](#lecture-no-46)
-  - [Lecture No 46](#lecture-no-46-1)
+  - [Lecture No 47](#lecture-no-47)
+  - [Lecture No 47](#lecture-no-47-1)
 
 
 ## Lecture no 1
@@ -424,7 +425,7 @@ We can edit according to our need
   `Look for the code in app/middleware.ts file`
 
 
-## Lecture No 46
+## Lecture No 47
   - Rendering
   <br>
   
@@ -433,3 +434,10 @@ We can edit according to our need
   CSR, SSR and RSCs?
   Rendering in React → Rendering in Next.js
   Sometimes it takes a couple of passes for these concepts to really sink in
+
+
+## Lecture No 47
+  - CSR -> Client Side Rendering
+  <br>
+  
+  It is same as REACT.js as it create a single page application.It has some drawbacks as like perfomance, Seo etc  
