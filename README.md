@@ -56,6 +56,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 46](#lecture-no-46)
   - [Lecture No 47](#lecture-no-47)
   - [Lecture No 47](#lecture-no-47-1)
+  - [Lecture No 48](#lecture-no-48)
 
 
 ## Lecture no 1
@@ -441,3 +442,13 @@ We can edit according to our need
   <br>
   
   It is same as REACT.js as it create a single page application.It has some drawbacks as like perfomance, Seo etc  
+
+  
+
+
+## Lecture No 48
+  - SSR -> Server Side Rendering
+  <br>
+  
+  In this complete html page is rendered from server side. It is resolves the problem with the CSR but also come with it's own disadvantages like it must have entire javascript for page before rendreing page and also fecth entire data before rendering so solving this problem we have another rendering type  
+
