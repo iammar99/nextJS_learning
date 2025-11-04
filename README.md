@@ -55,8 +55,9 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 45](#lecture-no-45)
   - [Lecture No 46](#lecture-no-46)
   - [Lecture No 47](#lecture-no-47)
-  - [Lecture No 47](#lecture-no-47-1)
   - [Lecture No 48](#lecture-no-48)
+  - [Lecture No 49](#lecture-no-49)
+  - [Lecture No 50](#lecture-no-50)
 
 
 ## Lecture no 1
@@ -437,7 +438,7 @@ We can edit according to our need
   Sometimes it takes a couple of passes for these concepts to really sink in
 
 
-## Lecture No 47
+## Lecture No 48
   - CSR -> Client Side Rendering
   <br>
   
@@ -446,9 +447,24 @@ We can edit according to our need
   
 
 
-## Lecture No 48
+## Lecture No 49
   - SSR -> Server Side Rendering
   <br>
   
   In this complete html page is rendered from server side. It is resolves the problem with the CSR but also come with it's own disadvantages like it must have entire javascript for page before rendreing page and also fecth entire data before rendering so solving this problem we have another rendering type  
 
+
+  
+
+
+## Lecture No 50
+  - Suspense Server Side Rendering
+  <br>
+  
+  It is used to solve all problems SSR faced using suspense component. It uses Suspense component to solve the problem it renders all component other than the  components that required hydration. It means user can see th other components. 
+
+
+  But there is still a problem that we can not render that comopnent untill all the hydration of that component is done 
+
+
+  It is solved by code splitting. In this we tell server that this data is not urgent and this is urgent by using this we can reduce waiting time   
