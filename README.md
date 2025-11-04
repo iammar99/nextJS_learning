@@ -54,6 +54,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 44](#lecture-no-44)
   - [Lecture No 45](#lecture-no-45)
   - [Lecture No 46](#lecture-no-46)
+  - [Lecture No 46](#lecture-no-46-1)
 
 
 ## Lecture no 1
@@ -421,3 +422,14 @@ We can edit according to our need
   Middleware is use to manage response and request in your app like authenticating, cookies ets.
 
   `Look for the code in app/middleware.ts file`
+
+
+## Lecture No 46
+  - Rendering
+  <br>
+  
+  Rendering is the process of transforming the component code you write into user interfaces that users can see and interact with
+  In Next.js, the tricky part to building a performant application is figuring out when and where this transformation should happen
+  CSR, SSR and RSCs?
+  Rendering in React → Rendering in Next.js
+  Sometimes it takes a couple of passes for these concepts to really sink in
