@@ -58,6 +58,8 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 48](#lecture-no-48)
   - [Lecture No 49](#lecture-no-49)
   - [Lecture No 50](#lecture-no-50)
+  - [Lecture No 51](#lecture-no-51)
+    - [RSC and Next.js](#rsc-and-nextjs)
 
 
 ## Lecture no 1
@@ -468,3 +470,36 @@ We can edit according to our need
 
 
   It is solved by code splitting. In this we tell server that this data is not urgent and this is urgent by using this we can reduce waiting time   
+
+
+
+
+
+## Lecture No 51  
+  - React Server Components
+  <br>
+  
+React Server Components offer a new approach to building React apps by separating components into two: Server Components and Client Components
+
+Server Components run exclusively on the server - they fetch data and prepare content without sending code to the browser
+
+This makes your app faster because users download less code
+
+However, they can't handle any interactions
+
+Client Components, on the other hand, run in the browser and manage all the interactive parts like clicks and typing
+
+They can also get an initial server render for faster page loads
+
+
+### RSC and Next.js
+"Okay Vishwas, this is all great information about React's rendering evolution, but how does this connect to Next.js?"
+
+The App Router in Next.js is built entirely on the RSC architecture
+All these benefits we've discussed? They're already built into the latest version of Next.js
+
+Understanding the evolution of React's rendering provides the foundation needed for you to grasp what we're about to explore as we dive deeper into Next.js
+
+
+
+This is a theiry lecture Here is the Link of this class :- [Class Link](https://www.youtube.com/watch?v=Nnr6w8vamUo&list=PLC3y8-rFHvwhIEc4I4YsRz5C7GOBnxSJY&index=52)
