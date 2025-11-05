@@ -61,6 +61,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 51](#lecture-no-51)
     - [RSC and Next.js](#rsc-and-nextjs)
   - [Lecture No 52](#lecture-no-52)
+  - [Lecture No 53](#lecture-no-53)
 
 
 ## Lecture no 1
@@ -521,4 +522,10 @@ This is a theiry lecture Here is the Link of this class :- [Class Link](https://
   Client components are rendered once on the server and then on the client
   
 
-  `Look for the code in Rendering Folder`
+
+## Lecture No 53  
+  -  RSC Rendering Lifecycle
+  <br>
+
+
+  Total Theory go for the Class :- [Class Link](https://www.youtube.com/watch?v=aZAMP-4Szgg&list=PLC3y8-rFHvwhIEc4I4YsRz5C7GOBnxSJY&index=53)
