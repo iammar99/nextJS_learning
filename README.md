@@ -64,6 +64,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 53](#lecture-no-53)
   - [Lecture No 54](#lecture-no-54)
   - [Lecture No 55](#lecture-no-55)
+  - [Lecture No 56](#lecture-no-56)
 
 
 ## Lecture no 1
@@ -575,3 +576,13 @@ This is a theiry lecture Here is the Link of this class :- [Class Link](https://
 
   `Go Look For code in (rendering) folder in production mode`
 
+
+
+  
+
+## Lecture No 56
+  -  generateStaticParams
+  <br>
+  It is use to make dynamic page static page
+
+  `Go Look for code in (rendering) folder in production`
