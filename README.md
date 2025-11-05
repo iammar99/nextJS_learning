@@ -537,4 +537,15 @@ This is a theiry lecture Here is the Link of this class :- [Class Link](https://
   <br>
 
 
+  Static rendering is a strategy where the HTML is generated at build time
+
+  Along with the HTML, RSC payloads for components and JavaScript chunks for client-side hydration are created
+  
+  Direct route visits serve HTML files
+  
+  Client-side navigation uses RSC payloads and JavaScript chunks without additional server requests
+  
+  Static rendering is great for performance, especially in blogs, documentation, and marketing pages
+
+
   This is also a theory Class :- [Class Link](https://www.youtube.com/watch?v=O6VFEwHujW0&list=PLC3y8-rFHvwhIEc4I4YsRz5C7GOBnxSJY&index=54)
