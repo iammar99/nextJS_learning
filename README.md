@@ -63,6 +63,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 52](#lecture-no-52)
   - [Lecture No 53](#lecture-no-53)
   - [Lecture No 54](#lecture-no-54)
+  - [Lecture No 55](#lecture-no-55)
 
 
 ## Lecture no 1
@@ -549,3 +550,28 @@ This is a theiry lecture Here is the Link of this class :- [Class Link](https://
 
 
   This is also a theory Class :- [Class Link](https://www.youtube.com/watch?v=O6VFEwHujW0&list=PLC3y8-rFHvwhIEc4I4YsRz5C7GOBnxSJY&index=54)
+
+
+  
+
+## Lecture No 55
+  -  Dynamic Rendering
+  <br>
+
+  Dynamic rendering is a strategy where the HTML is generated at request time
+  
+  Next.js automatically enables it when it encounters dynamic functions like cookies, headers, connection, draftMode, after or searchParams prop
+  
+  Dynamic rendering is great for personalized content like social media feeds
+  
+  You don't have to stress about choosing between static and dynamic rendering
+  
+  Next.js automatically selects the optimal rendering strategy for each route based on the features and APIs you're using
+  
+  if you want to force a route to be dynamically rendered, you can use the `export const dynamic = 'force-dynamic" config at the top of your page
+
+  When we render static page which doesn't contain any thing dynamic thing it shows static page but when implements dynamic routes like cookies or API it converts into Dynamic page 
+
+
+  `Go Look For code in (rendering) folder in production mode`
+
