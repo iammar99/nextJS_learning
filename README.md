@@ -62,6 +62,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
     - [RSC and Next.js](#rsc-and-nextjs)
   - [Lecture No 52](#lecture-no-52)
   - [Lecture No 53](#lecture-no-53)
+  - [Lecture No 54](#lecture-no-54)
 
 
 ## Lecture no 1
@@ -527,5 +528,13 @@ This is a theiry lecture Here is the Link of this class :- [Class Link](https://
   -  RSC Rendering Lifecycle
   <br>
 
-
   Total Theory go for the Class :- [Class Link](https://www.youtube.com/watch?v=aZAMP-4Szgg&list=PLC3y8-rFHvwhIEc4I4YsRz5C7GOBnxSJY&index=53)
+
+
+
+## Lecture No 54
+  -  Static Rendering
+  <br>
+
+
+  This is also a theory Class :- [Class Link](https://www.youtube.com/watch?v=O6VFEwHujW0&list=PLC3y8-rFHvwhIEc4I4YsRz5C7GOBnxSJY&index=54)
