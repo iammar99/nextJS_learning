@@ -65,6 +65,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 54](#lecture-no-54)
   - [Lecture No 55](#lecture-no-55)
   - [Lecture No 56](#lecture-no-56)
+  - [Lecture No 57](#lecture-no-57)
 
 
 ## Lecture no 1
@@ -584,5 +585,25 @@ This is a theiry lecture Here is the Link of this class :- [Class Link](https://
   -  generateStaticParams
   <br>
   It is use to make dynamic page static page
+
+  `Go Look for code in (rendering) folder in production`
+
+
+
+## Lecture No 57
+  -  dynamicParams
+  <br>
+  Control what happens when a dynamic segment is visited that was not generated with generateStaticParams()
+
+  **true** - Next.js will statically render pages on demand for any dynamic segments not included in generateStaticParams()
+
+  **false** - Next.js will return a 404 error for any dynamic segments not included in our pre-rendered list
+
+
+  We can also stop it by using this line at the top
+
+  ```
+  export const dynamicParams = false
+  ```
 
   `Go Look for code in (rendering) folder in production`
