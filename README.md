@@ -67,6 +67,9 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 56](#lecture-no-56)
   - [Lecture No 57](#lecture-no-57)
   - [Lecture No 58](#lecture-no-58)
+  - [Lecture No 59](#lecture-no-59)
+    - [Server Components](#server-components)
+    - [Client components](#client-components)
 
 
 ## Lecture no 1
@@ -629,3 +632,28 @@ This is a theiry lecture Here is the Link of this class :- [Class Link](https://
   Streaming comes built right into the App Router
 
   `Go Look for this code in (rendering)>rendering-product>[id] folder`
+
+
+  
+
+## Lecture No 59
+  -  Server and Client Composition Patterns
+  <br>
+
+
+  ### Server Components
+
+   - fetching data
+   - accessing backend resources directly
+   - keeping sensitive information (like access tokens and API keys) secure on the server
+   - handling large dependencies server-side - which means less JavaScript for your users to download
+
+  ### Client components
+
+   - adding interactivity
+   - handling event listeners (like onClick(), onChange(), etc.)
+   - managing state and lifecycle effects (using hooks like useState(),
+   - useReducer(), useEffect())
+   - working with browser-specific APIs
+   - implementing custom hooks
+   - Using React class components
