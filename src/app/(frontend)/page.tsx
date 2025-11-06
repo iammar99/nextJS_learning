@@ -18,6 +18,8 @@ export default function Home() {
          <Link href={"/articles/breaking-news-123?lang=en"} className="text-blue-600 hover:underline">Read Article in English</Link>
          <br />
          <Link href={"/articles/breaking-news-123?lang=fr"} className="text-blue-600 hover:underline">Read Article in French</Link>
+         <br />
+         <Link href={"/rendering-product"} className="text-blue-600 hover:underline">Rendering Product</Link>
       </>
    )
 }

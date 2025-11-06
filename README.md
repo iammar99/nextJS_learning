@@ -66,6 +66,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 55](#lecture-no-55)
   - [Lecture No 56](#lecture-no-56)
   - [Lecture No 57](#lecture-no-57)
+  - [Lecture No 58](#lecture-no-58)
 
 
 ## Lecture no 1
@@ -607,3 +608,24 @@ This is a theiry lecture Here is the Link of this class :- [Class Link](https://
   ```
 
   `Go Look for code in (rendering) folder in production`
+
+
+
+
+
+
+## Lecture No 58
+  -  Streaming
+  <br>
+
+  Streaming is a strategy that allows for progressive UI rendering from the server
+  
+  Work is broken down into smaller chunks and streamed to the client as soon as they're ready
+  
+  
+  This means users can see parts of the page right away, without waiting for everything to load
+  It's particularly powerful for improving initial page load times and handling UI elements that depend on slower data fetches, which would normally hold up the entire route
+  
+  Streaming comes built right into the App Router
+
+  `Go Look for this code in (rendering)>rendering-product>[id] folder`
