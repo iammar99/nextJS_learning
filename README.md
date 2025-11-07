@@ -70,6 +70,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 59](#lecture-no-59)
     - [Server Components](#server-components)
     - [Client components](#client-components)
+  - [Lecture No 60](#lecture-no-60)
 
 
 ## Lecture no 1
@@ -646,7 +647,7 @@ This is a theiry lecture Here is the Link of this class :- [Class Link](https://
    - fetching data
    - accessing backend resources directly
    - keeping sensitive information (like access tokens and API keys) secure on the server
-   - handling large dependencies server-side - which means less JavaScript for your users to download
+     - handling large dependencies server-side - which means less JavaScript for your users to download
 
   ### Client components
 
@@ -657,3 +658,20 @@ This is a theiry lecture Here is the Link of this class :- [Class Link](https://
    - working with browser-specific APIs
    - implementing custom hooks
    - Using React class components
+
+
+
+  
+
+## Lecture No 60
+  -  Server only Code
+  <br>
+  It is code that should only stay on server and not on the client side because it can cause security issues so we need some securtiy guard for it 
+
+
+  Here is the place where **server-only** package come into field. Install this pacage by running this command
+
+  `npm i server-only`
+
+  `Go Look for code in the (Rendering) folder`
+
