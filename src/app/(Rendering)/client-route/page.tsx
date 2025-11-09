@@ -4,8 +4,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useTheme } from "@/Components/theme-provider";
+import { clientSideFunction } from "@/Utils/clientSideFunction";
 
 export default function Page() {
+    const result = clientSideFunction()
     const theme = useTheme()
     const settings = {
         dots: true,
@@ -18,7 +20,7 @@ export default function Page() {
     };
 
     return (
-        <main className="h-screen flex items-center" style={{background:theme.colors.primary}}>
+        <main className="h-screen flex items-center flex-col justify-center" style={{background:theme.colors.secondary}}>
             <div style={{ maxWidth: 800, margin: "0 auto" }}>
                 <Slider {...settings}>
                     <div>
@@ -54,6 +56,9 @@ export default function Page() {
                     </div>
                 </Slider>
             </div>
+            <h1 className="my-5">
+                {result}
+            </h1>
         </main>
     );
 }

@@ -1,5 +1,6 @@
 import ImageSlider from "@/Components/imageSlider";
-import { serverSideFunction } from "@/Utils/serverSideFunction"
+// import { clientSideFunction } from "@/Utils/clientSideFunction";
+// import { serverSideFunction } from "@/Utils/serverSideFunction"
 
 // import Slider from "react-slick";
 // import "slick-carousel/slick/slick.css";
@@ -7,6 +8,7 @@ import { serverSideFunction } from "@/Utils/serverSideFunction"
 
 
 export default function page() {
+    // const result = clientSideFunction()
 
     // const result = serverSideFunction()
     // const settings = {
@@ -21,6 +23,9 @@ export default function page() {
     return (
         <>
             <ImageSlider />
+            <h1 className="my-5">
+                {/* {result} */}
+            </h1>
         </>
         // <main className="h-screen bg-zinc-800 flex items-center">
         //     <div style={{ maxWidth: 800, margin: "0 auto" }}>

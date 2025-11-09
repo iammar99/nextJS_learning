@@ -73,6 +73,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 60](#lecture-no-60)
   - [Lecture No 61](#lecture-no-61)
   - [Lecture No 62](#lecture-no-62)
+  - [Lecture No 63](#lecture-no-63)
 
 
 ## Lecture no 1
@@ -703,6 +704,20 @@ This is a theiry lecture Here is the Link of this class :- [Class Link](https://
  - The solution is to create your context and render its provider inside a dedicated Client Component
  - IT will not work in server component as we did in REACT we wrap our with it
  - But now we will create it sepratly in client component and then will wrap it
+
+
+`Go Look for code in the (Rendering) folder in client-route and Layout.tsx`
+
+
+
+
+## Lecture No 63
+  -  Client-only Code
+  <br>
+ - Just like how we need to keep certain operations server-side, it's equally crucial to keep some functionality strictly on the client side
+ - Client-only code works with browser-specific features - think DOM manipulation, window object interactions, or localStorage operations
+ - These features aren't available on the server, so we need to make sure such code runs only on the client side to avoid server-side rendering errors
+ - To prevent unintended server side usage of client side code, we can use a package called client-only
 
 
 `Go Look for code in the (Rendering) folder in client-route and Layout.tsx`
