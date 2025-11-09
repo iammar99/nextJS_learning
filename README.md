@@ -71,6 +71,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
     - [Server Components](#server-components)
     - [Client components](#client-components)
   - [Lecture No 60](#lecture-no-60)
+  - [Lecture No 61](#lecture-no-61)
 
 
 ## Lecture no 1
@@ -675,3 +676,17 @@ This is a theiry lecture Here is the Link of this class :- [Class Link](https://
 
   `Go Look for code in the (Rendering) folder`
 
+
+
+## Lecture No 61
+  -  Third Party Packages
+  <br>
+ - Server Components have introduced an exciting new paradigm in React, and the ecosystem is evolving to keep up
+ - Third-party packages are starting to add the "use client" directive to components that need client-side features, making it clear where they should run
+ - Many npm packages haven't made this transition yet
+ - This means while they work fine in Client Components, they might break or fail completely in Server Components
+ - We can wrap the third-party components that need client-side features in our own Client Components
+
+
+`Go Look for code in the (Rendering) folder in client-route and server-route`
+ 
