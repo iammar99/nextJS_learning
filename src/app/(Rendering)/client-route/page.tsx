@@ -3,8 +3,10 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useTheme } from "@/Components/theme-provider";
 
 export default function Page() {
+    const theme = useTheme()
     const settings = {
         dots: true,
         infinite: true,
@@ -16,7 +18,7 @@ export default function Page() {
     };
 
     return (
-        <main className="h-screen bg-zinc-800 flex items-center">
+        <main className="h-screen flex items-center" style={{background:theme.colors.primary}}>
             <div style={{ maxWidth: 800, margin: "0 auto" }}>
                 <Slider {...settings}>
                     <div>

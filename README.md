@@ -72,6 +72,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
     - [Client components](#client-components)
   - [Lecture No 60](#lecture-no-60)
   - [Lecture No 61](#lecture-no-61)
+  - [Lecture No 62](#lecture-no-62)
 
 
 ## Lecture no 1
@@ -690,3 +691,18 @@ This is a theiry lecture Here is the Link of this class :- [Class Link](https://
 
 `Go Look for code in the (Rendering) folder in client-route and server-route`
  
+
+
+## Lecture No 62
+  -  Context Providers
+  <br>
+ - Context providers typically live near the root of an application to share global state and logic
+ - For example, your application's theme
+ - However, React context isn't supported in Server Components
+ - If you try to create a context at your application's root, you'll run into an error
+ - The solution is to create your context and render its provider inside a dedicated Client Component
+ - IT will not work in server component as we did in REACT we wrap our with it
+ - But now we will create it sepratly in client component and then will wrap it
+
+
+`Go Look for code in the (Rendering) folder in client-route and Layout.tsx`

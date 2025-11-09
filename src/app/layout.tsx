@@ -1,4 +1,5 @@
 import "./global.css"
+import { ThemeProvider } from "@/Components/theme-provider"
 
 export const metadata = {
     title: 'Next.js',
@@ -12,9 +13,11 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-                <body style={{ margin: "0", padding: "0", boxSizing: "border-box", display: "flex", flexDirection: "column", minHeight: "100vh" }}>
+            <body style={{ margin: "0", padding: "0", boxSizing: "border-box", display: "flex", flexDirection: "column", minHeight: "100vh" }}>
+                <ThemeProvider>
                     {children}
-                </body>
+                </ThemeProvider>
+            </body>
         </html>
     )
 }
