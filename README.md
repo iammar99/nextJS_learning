@@ -74,6 +74,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 61](#lecture-no-61)
   - [Lecture No 62](#lecture-no-62)
   - [Lecture No 63](#lecture-no-63)
+  - [Lecture No 64](#lecture-no-64)
 
 
 ## Lecture no 1
@@ -721,3 +722,15 @@ This is a theiry lecture Here is the Link of this class :- [Class Link](https://
 
 
 `Go Look for code in the (Rendering) folder in client-route and Layout.tsx`
+
+
+## Lecture No 64
+  - Client Component Placement
+  <br>
+
+   - Since server components can't handle state and interactivity, we need client components to fill this gap
+   - The key recommendation here is to position these client components lower in your component tree
+
+`Go Look for code in (Rendering) > clientCompnentPlacement > client-nav`
+
+**Our target is to minimize browser load by keeping only essential components on client side**
