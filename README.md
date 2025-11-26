@@ -76,6 +76,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 63](#lecture-no-63)
   - [Lecture No 64](#lecture-no-64)
   - [Lecture No 65](#lecture-no-65)
+  - [Lecture No 66](#lecture-no-66)
 
 
 ## Lecture no 1
@@ -749,3 +750,19 @@ This is a theiry lecture Here is the Link of this class :- [Class Link](https://
   4. Client component inside Server Component ---- ✔
 
 `Look for code inside (Interleaving) Folder`
+
+
+
+
+## Lecture No 66
+  - Data Fetching
+  <br>
+
+ - So far, we've been working with hard-coded content in our routes and components
+ - In actual enterprise apps, you're usually pulling data from external sources
+ - The App Router is built on React Server Components (RSC) architecture which gives us the flexibility to fetch data using either server components or client components
+
+It's usually preferable to use server components for data operations because:
+ - You can directly communicate with your databases and file systems on the server side
+ - You get better performance since you're closer to your data sources Your client-side bundle stays lean because the heavy lifting happens server-side
+ - Your sensitive operations and API keys remain secure on the server
