@@ -79,6 +79,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 66](#lecture-no-66)
   - [Lecture No 67](#lecture-no-67)
   - [Lecture No 68](#lecture-no-68)
+  - [Lecture No 69](#lecture-no-69)
 
 
 ## Lecture no 1
@@ -789,5 +790,17 @@ It's usually preferable to use server components for data operations because:
  - React will only make the actual fetch once and reuse the result for subsequent calls during the same render pass
  - It's a React feature and thereby included in Next.js
  - Lets you write data-fetching code exactly where you need it rather than having to centralize fetches and pass data down through props
+  
+  `Look for code in (Data fetching) > users-server`
+
+
+
+
+## Lecture No 69
+  -  Loading and Error States
+  <br>
+ - While client components require you to manage these states with separate variables and conditional rendering, server components make this process much cleaner
+ - To implement a loading state, all we need to do is define and export a React component in loading.tsx
+For handling errors, define and export a React component in error.tsx
   
   `Look for code in (Data fetching) > users-server`
