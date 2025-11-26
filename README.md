@@ -78,6 +78,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 65](#lecture-no-65)
   - [Lecture No 66](#lecture-no-66)
   - [Lecture No 67](#lecture-no-67)
+  - [Lecture No 68](#lecture-no-68)
 
 
 ## Lecture no 1
@@ -775,4 +776,18 @@ It's usually preferable to use server components for data operations because:
   - Fetching Data in Client Components
   <br>
   IT is similar to we did in REACT
-  `Look for code in (Data fetching)`
+  `Look for code in (Data fetching) > user-client`
+
+
+
+
+## Lecture No 68
+  - Fetching Data in Server Components
+  <br>
+  Request memoization contd.
+ - This means you can fetch data wherever you need it in your component tree without worrying about duplicate network requests
+ - React will only make the actual fetch once and reuse the result for subsequent calls during the same render pass
+ - It's a React feature and thereby included in Next.js
+ - Lets you write data-fetching code exactly where you need it rather than having to centralize fetches and pass data down through props
+  
+  `Look for code in (Data fetching) > users-server`
