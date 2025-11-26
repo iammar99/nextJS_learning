@@ -77,6 +77,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 64](#lecture-no-64)
   - [Lecture No 65](#lecture-no-65)
   - [Lecture No 66](#lecture-no-66)
+  - [Lecture No 67](#lecture-no-67)
 
 
 ## Lecture no 1
@@ -766,3 +767,12 @@ It's usually preferable to use server components for data operations because:
  - You can directly communicate with your databases and file systems on the server side
  - You get better performance since you're closer to your data sources Your client-side bundle stays lean because the heavy lifting happens server-side
  - Your sensitive operations and API keys remain secure on the server
+
+
+
+
+## Lecture No 67
+  - Fetching Data in Client Components
+  <br>
+  IT is similar to we did in REACT
+  `Look for code in (Data fetching)`
