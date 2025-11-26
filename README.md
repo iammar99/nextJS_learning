@@ -75,6 +75,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 62](#lecture-no-62)
   - [Lecture No 63](#lecture-no-63)
   - [Lecture No 64](#lecture-no-64)
+  - [Lecture No 65](#lecture-no-65)
 
 
 ## Lecture no 1
@@ -734,3 +735,17 @@ This is a theiry lecture Here is the Link of this class :- [Class Link](https://
 `Go Look for code in (Rendering) > clientCompnentPlacement > client-nav`
 
 **Our target is to minimize browser load by keeping only essential components on client side**
+
+
+
+
+## Lecture No 65
+  - Interleaving Server and Client Components
+  <br>
+  There are 4 Scenarios
+  1. Server component inside Server Component ---- ✔
+  2. Server component inside Client Component ---- ❌ worked by using props 
+  3. Client component inside Client Component ---- ✔
+  4. Client component inside Server Component ---- ✔
+
+`Look for code inside (Interleaving) Folder`
