@@ -80,6 +80,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 67](#lecture-no-67)
   - [Lecture No 68](#lecture-no-68)
   - [Lecture No 69](#lecture-no-69)
+  - [Lecture No 70](#lecture-no-70)
 
 
 ## Lecture no 1
@@ -776,6 +777,8 @@ It's usually preferable to use server components for data operations because:
 ## Lecture No 67
   - Fetching Data in Client Components
   <br>
+
+  
   IT is similar to we did in REACT
   `Look for code in (Data fetching) > user-client`
 
@@ -785,6 +788,9 @@ It's usually preferable to use server components for data operations because:
 ## Lecture No 68
   - Fetching Data in Server Components
   <br>
+
+
+
   Request memoization contd.
  - This means you can fetch data wherever you need it in your component tree without worrying about duplicate network requests
  - React will only make the actual fetch once and reuse the result for subsequent calls during the same render pass
@@ -799,8 +805,25 @@ It's usually preferable to use server components for data operations because:
 ## Lecture No 69
   -  Loading and Error States
   <br>
+
+
  - While client components require you to manage these states with separate variables and conditional rendering, server components make this process much cleaner
  - To implement a loading state, all we need to do is define and export a React component in loading.tsx
 For handling errors, define and export a React component in error.tsx
   
   `Look for code in (Data fetching) > users-server`
+
+
+
+
+## Lecture No 70
+  -  Sequential Data Fetching
+  <br>
+
+
+  When fetching data inside components, you need to be aware of two data fetching patterns:
+  1. Sequential
+  2. Parallel
+  Sequential: requests in a component tree are dependent on each other. This can lead to longer loading times.
+  
+  `Look for code in (Data fetching) > posts-sequntially`
