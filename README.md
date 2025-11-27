@@ -81,6 +81,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 68](#lecture-no-68)
   - [Lecture No 69](#lecture-no-69)
   - [Lecture No 70](#lecture-no-70)
+  - [Lecture No 71](#lecture-no-71)
 
 
 ## Lecture no 1
@@ -827,3 +828,14 @@ For handling errors, define and export a React component in error.tsx
   Sequential: requests in a component tree are dependent on each other. This can lead to longer loading times.
   
   `Look for code in (Data fetching) > posts-sequntially`
+
+
+
+
+## Lecture No 71
+  -  Parallel Data Fetching
+  <br
+
+  **Parallel**: requests in a route are eagerly initiated and will load data at the same time. This reduces the total time it takes to load data.
+  
+  `Look for code in (Data fetching) > user-parallel`
