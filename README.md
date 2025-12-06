@@ -82,6 +82,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 69](#lecture-no-69)
   - [Lecture No 70](#lecture-no-70)
   - [Lecture No 71](#lecture-no-71)
+  - [Lecture No 71](#lecture-no-71-1)
 
 
 ## Lecture no 1
@@ -837,5 +838,43 @@ For handling errors, define and export a React component in error.tsx
   <br
 
   **Parallel**: requests in a route are eagerly initiated and will load data at the same time. This reduces the total time it takes to load data.
+  
+  `Look for code in (Data fetching) > user-parallel`
+
+
+
+## Lecture No 71
+  -  Fetching from a database
+  <br
+
+
+  We've looked at how to fetch data from API endpoints using the Fetch API Let's dive into fetching data from a database in Server Components
+  What we're about to cover is super important - it's the foundation for data mutations and server actions coming up next
+  Two key reasons why fetching data directly from a database is powerful
+  1. server components have direct access to server-side resources, which makes database interactions seamless
+  2. since everything happens on the server, we don't need API routes or worry about exposing sensitive information to the client
+
+  We're going to be working with two super helpful tools - SQLite and Prisma 
+   - **SQLite**
+    A simple, file-based database to store information in your project
+  It doesn't require a server or a complex setup and it's perfect for learning and prototyping
+   - **Prisma**
+  A tool that makes it really easy to talk to your database
+  It's like a translator that helps your code communicate with SQLite
+
+  use this command for installing prisma
+  ```
+  npm install prisma -D
+  ```
+
+  use this command for intializing prisma
+  ```
+  npx prisma init --datasource-provider sqlite
+  ```
+
+  use this command for running migration
+  ```
+  npx prisma migrate dev --name init
+  ```
   
   `Look for code in (Data fetching) > user-parallel`
