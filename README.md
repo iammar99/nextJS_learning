@@ -90,6 +90,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 77](#lecture-no-77)
   - [Lecture No 78](#lecture-no-78)
   - [Lecture No 79](#lecture-no-79)
+  - [Lecture No 80](#lecture-no-80)
 
 
 ## Lecture no 1
@@ -988,4 +989,18 @@ We'll use "pending" to disable our submit button while the form is being process
 
   I have not used this method so watch this video
 
+  but I'll do in future
+
   **Link to this video:-** [Video Link](https://www.youtube.com/watch?v=SbaKEqCRcDE)
+
+
+   
+## Lecture No 80
+  - Delete Server Action
+  <br>
+
+  I have not used this method so watch this video
+
+  but I'll do in future
+
+  **Link to this video:-** [Video Link](https://www.youtube.com/watch?v=oi71gLPFQtk)
