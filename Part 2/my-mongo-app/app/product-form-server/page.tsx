@@ -1,3 +1,4 @@
+import SubmitBtn from "@/Components/SubmitBtn";
 import { addProduct } from "@/lib/product-db";
 import { redirect } from "next/navigation";
 
@@ -62,11 +63,7 @@ export default function page() {
                     </div>
 
                     {/* Button */}
-                    <button
-                        type="submit"
-                        className={`bg-indigo-600 hover:bg-indigo-500 text-white transform hover:scale-[1.01] w-full hover:cursor-pointer py-3 mt-4 rounded-lg font-bold text-lg transition duration-200 ease-in-out shadow-lg`}>
-                        Add Product
-                    </button>
+                    <SubmitBtn/>
                 </form>
             </div>
         </>

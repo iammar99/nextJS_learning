@@ -85,6 +85,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 72](#lecture-no-72)
   - [Lecture No 73](#lecture-no-73)
   - [Lecture No 74](#lecture-no-74)
+  - [Lecture No 75](#lecture-no-75)
 
 
 ## Lecture no 1
@@ -924,3 +925,22 @@ server-side, away from potential threats.
   - **Progressive enhancement:** forms keep working even if JavaScript is turned off in the browser - making your apps more accessible and resilient
 
   `Look for code in  product-form-server`
+
+
+   
+
+
+## Lecture No 75
+  -  Pending State with useFormStatus
+  <br>
+  - useFormStatus is a React hook that gives us status information about the last form submission
+
+
+  **const status = useFormStatus()**
+  - pending: a boolean that indicates if the parent <form> is currently submitting data: an object containing the form's submission data
+  - method: a string (either 'get' or 'post') showing the HTTP method being used 
+  - action: a reference to the function that was passed to the parent <form>'s
+  action prop
+
+  
+We'll use "pending" to disable our submit button while the form is being processed
