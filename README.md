@@ -84,6 +84,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 71](#lecture-no-71)
   - [Lecture No 72](#lecture-no-72)
   - [Lecture No 73](#lecture-no-73)
+  - [Lecture No 74](#lecture-no-74)
 
 
 ## Lecture no 1
@@ -907,3 +908,19 @@ For handling errors, define and export a React component in error.tsx
   
 
   `Look for code in product-db + product-form`
+
+  
+
+
+## Lecture No 74
+  -  Server Actions
+  <br>
+
+**Server Actions benefits**
+  - **Simplified code:** they dramatically simplify your code as there is no need for separate API routes or client-side state management for form data.
+  - **Improved security:** they boost security by keeping sensitive operations
+server-side, away from potential threats.
+  - **Better performance:** they improve performance because there's less JavaScript running on the client, leading to faster load times and better core web vitals.
+  - **Progressive enhancement:** forms keep working even if JavaScript is turned off in the browser - making your apps more accessible and resilient
+
+  `Look for code in  product-form-server`
