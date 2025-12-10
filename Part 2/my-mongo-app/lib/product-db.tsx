@@ -12,7 +12,7 @@ export async function getProducts(query?: string) {
   if (query) {
     return Product.find({
       $or: [
-        { name: { $regex: query, $options: "i" } },
+        { title: { $regex: query, $options: "i" } },
         { description: { $regex: query, $options: "i" } },
       ],
     }).exec();
@@ -81,7 +81,6 @@ export async function updateProduct(
 export async function deleteProduct(
   id: string
 ) {
-  await new Promise((resolve) => setTimeout(resolve, 1500));
   return Product.findOneAndDelete({ _id: id });
 }
 

@@ -91,6 +91,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 78](#lecture-no-78)
   - [Lecture No 79](#lecture-no-79)
   - [Lecture No 80](#lecture-no-80)
+  - [Lecture No 81](#lecture-no-81)
 
 
 ## Lecture no 1
@@ -1004,3 +1005,17 @@ We'll use "pending" to disable our submit button while the form is being process
   but I'll do in future
 
   **Link to this video:-** [Video Link](https://www.youtube.com/watch?v=oi71gLPFQtk)
+
+   
+
+   
+## Lecture No 81
+  - useOptimistic Hook
+  <br>
+
+  - useOptimistic is a React Hook that provides a way to optimistically update the UI while an asynchronous action is underway
+  - This technique helps make our apps feel more responsive, especially when working with forms
+  - Instead of making users wait for server responses, we can show them the expected result right away.
+
+
+`Look for code in delete button`
