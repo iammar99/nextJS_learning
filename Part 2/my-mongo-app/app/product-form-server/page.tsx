@@ -1,49 +1,18 @@
+"use client"
+
 import SubmitBtn from "@/Components/SubmitBtn";
-import { addProduct } from "@/lib/product-db";
-import { redirect } from "next/navigation";
 import { useActionState } from "react";
+import { handleAddProduct, FormState } from "@/action/product";
 
-type Error = {
-    title?: string,
-    price?: string,
-    description?: string
-}
 
-type FormState = {
-    error: Error
-}
-
-export default function page() {
+export default function Page() {
 
     const initialState: FormState = {
-        error = {}
+        error : {}
     }
 
     const [state, formAction, isPending] = useActionState(handleAddProduct, initialState)
 
-    async function handleAddProduct(formData: FormData) {
-        "use server"
-        const title = formData.get("title") as string;
-        const price = Number(formData.get("price"));
-        const description = formData.get("description") as string;
-
-        const error: Error = {}
-        if (!title) {
-            error.title = "Title is Required"
-        }
-        if (!price) {
-            error.price = "Price is Required"
-        }
-        if (!description) {
-            error.description = "Description is Required"
-        }
-
-        if (Object.keys(error).length > 0) {
-            return { error }
-        }
-        await addProduct(title, price, description)
-        redirect("/product-db")
-    }
     return (
         <>
             <div className="w-full sm:max-w-sm md:max-w-lg lg:max-w-xl mx-auto p-4 sm:p-6 rounded-xl shadow-2xl mt-10 bg-gray-900 border border-gray-700">
@@ -64,11 +33,10 @@ export default function page() {
                             placeholder="e.g., Stellar Mechanical Keyboard"
                             className="w-full p-3 bg-gray-700 text-white border border-gray-600 rounded-lg placeholder-gray-500
           focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200 ease-in-out"
-                            required
                         />
                         {
                             state.error.title &&
-                            <p className="text-red-600 bg-red-100 border border-red-400 rounded-md px-3 py-2 text-sm mt-2">
+                            <p className="text-red-600 text-sm mt-1">
                                 {state.error.title}
                             </p>
 
@@ -84,11 +52,10 @@ export default function page() {
                             placeholder="e.g., 129.99"
                             className="w-full p-3 bg-gray-700 text-white border border-gray-600 rounded-lg placeholder-gray-500
     focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200 ease-in-out"
-                            required
                         />
                         {
                             state.error.price &&
-                            <p className="text-red-600 bg-red-100 border border-red-400 rounded-md px-3 py-2 text-sm mt-2">
+                            <p className="text-red-600 text-sm mt-1">
                                 {state.error.price}
                             </p>
 
@@ -107,7 +74,7 @@ export default function page() {
                         />
                         {
                             state.error.description &&
-                            <p className="text-red-600 bg-red-100 border border-red-400 rounded-md px-3 py-2 text-sm mt-2">
+                            <p className="text-red-600 text-sm mt-1">
                                 {state.error.description}
                             </p>
 

@@ -87,6 +87,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 74](#lecture-no-74)
   - [Lecture No 75](#lecture-no-75)
   - [Lecture No 76](#lecture-no-76)
+  - [Lecture No 77](#lecture-no-77)
 
 
 ## Lecture no 1
@@ -952,3 +953,16 @@ We'll use "pending" to disable our submit button while the form is being process
   <br>
 - useActionState is a React hook that allows us to update state based on the result of a form action
 - It is particularly helpful for handling form validation and error messages
+
+**In this CLass we used this hook but not completly**
+
+
+   
+## Lecture No 77
+  -  Separating Server Actions
+  <br>
+
+  `Look for code in action Folder and product-form-server Folder`
+
+
+**In this CLass we completed our previous task in a seprate file**
