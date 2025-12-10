@@ -89,6 +89,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 76](#lecture-no-76)
   - [Lecture No 77](#lecture-no-77)
   - [Lecture No 78](#lecture-no-78)
+  - [Lecture No 79](#lecture-no-79)
 
 
 ## Lecture no 1
@@ -978,3 +979,13 @@ We'll use "pending" to disable our submit button while the form is being process
 - The pending state from useFormStatus is specifically for form submissions isPending from useActionState can be used with any Action, not just form submissions
 - Go with pending from useForm Status when you're building reusable components that are meant to live inside forms. - For example, submit buttons or loading spinners that you'll want to use across different forms in your application.
 - Choose isPending from useActionState when you need to keep track of server actions that aren't necessarily related to form submissions. It gives you that extra flexibility.
+
+
+   
+## Lecture No 79
+  - Update Server Action
+  <br>
+
+  I have not used this method so watch this video
+
+  **Link to this video:-** [Video Link](https://www.youtube.com/watch?v=SbaKEqCRcDE)
