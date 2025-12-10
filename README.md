@@ -92,6 +92,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 79](#lecture-no-79)
   - [Lecture No 80](#lecture-no-80)
   - [Lecture No 81](#lecture-no-81)
+  - [Lecture No 82](#lecture-no-82)
 
 
 ## Lecture no 1
@@ -1019,3 +1020,15 @@ We'll use "pending" to disable our submit button while the form is being process
 
 
 `Look for code in delete button`
+   
+
+   
+## Lecture No 82
+  -  Form Component
+  <br>
+
+  1. when the Form component becomes visible, it prefetches the loading UI associated with "/products-db" route
+  2. when a user submits the search, it instantly navigates to the products page client-side and the form data gets turned into URL params
+  3. it'll show the loading state while the search results are being fetched 4. once the data is ready, the results are displayed in the UI
+
+

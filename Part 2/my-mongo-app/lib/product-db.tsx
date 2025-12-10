@@ -7,7 +7,6 @@ import mongoose from "mongoose";
 // =========================| Get All Products |=========================
 
 export async function getProducts(query?: string) {
-  await new Promise((resolve) => setTimeout(resolve, 1500));
 
   if (query) {
     return Product.find({
