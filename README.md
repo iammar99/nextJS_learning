@@ -86,6 +86,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 73](#lecture-no-73)
   - [Lecture No 74](#lecture-no-74)
   - [Lecture No 75](#lecture-no-75)
+  - [Lecture No 76](#lecture-no-76)
 
 
 ## Lecture no 1
@@ -927,8 +928,7 @@ server-side, away from potential threats.
   `Look for code in  product-form-server`
 
 
-   
-
+  
 
 ## Lecture No 75
   -  Pending State with useFormStatus
@@ -942,5 +942,13 @@ server-side, away from potential threats.
   - action: a reference to the function that was passed to the parent <form>'s
   action prop
 
-  
+
 We'll use "pending" to disable our submit button while the form is being processed
+
+
+   
+## Lecture No 76
+  -  Form Validation with useActionState
+  <br>
+- useActionState is a React hook that allows us to update state based on the result of a form action
+- It is particularly helpful for handling form validation and error messages

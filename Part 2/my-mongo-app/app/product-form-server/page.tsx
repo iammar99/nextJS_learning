@@ -1,15 +1,47 @@
 import SubmitBtn from "@/Components/SubmitBtn";
 import { addProduct } from "@/lib/product-db";
 import { redirect } from "next/navigation";
+import { useActionState } from "react";
+
+type Error = {
+    title?: string,
+    price?: string,
+    description?: string
+}
+
+type FormState = {
+    error: Error
+}
 
 export default function page() {
 
-    async function handleAddProduct(formData:FormData){
+    const initialState: FormState = {
+        error = {}
+    }
+
+    const [state, formAction, isPending] = useActionState(handleAddProduct, initialState)
+
+    async function handleAddProduct(formData: FormData) {
         "use server"
         const title = formData.get("title") as string;
         const price = Number(formData.get("price"));
         const description = formData.get("description") as string;
-        await addProduct(title,price,description)
+
+        const error: Error = {}
+        if (!title) {
+            error.title = "Title is Required"
+        }
+        if (!price) {
+            error.price = "Price is Required"
+        }
+        if (!description) {
+            error.description = "Description is Required"
+        }
+
+        if (Object.keys(error).length > 0) {
+            return { error }
+        }
+        await addProduct(title, price, description)
         redirect("/product-db")
     }
     return (
@@ -20,7 +52,7 @@ export default function page() {
                 </h2>
 
                 <form
-                action={handleAddProduct}
+                    action={formAction}
                     className="space-y-6 p-6 sm:p-8 rounded-xl bg-gray-800 shadow-xl"
                 >
                     {/* Title */}
@@ -34,6 +66,13 @@ export default function page() {
           focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200 ease-in-out"
                             required
                         />
+                        {
+                            state.error.title &&
+                            <p className="text-red-600 bg-red-100 border border-red-400 rounded-md px-3 py-2 text-sm mt-2">
+                                {state.error.title}
+                            </p>
+
+                        }
                     </div>
 
                     {/* Price */}
@@ -47,7 +86,13 @@ export default function page() {
     focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200 ease-in-out"
                             required
                         />
+                        {
+                            state.error.price &&
+                            <p className="text-red-600 bg-red-100 border border-red-400 rounded-md px-3 py-2 text-sm mt-2">
+                                {state.error.price}
+                            </p>
 
+                        }
                     </div>
 
                     {/* Description */}
@@ -60,10 +105,17 @@ export default function page() {
                             className="w-full p-3 bg-gray-700 text-white border border-gray-600 rounded-lg placeholder-gray-500
           focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200 ease-in-out resize-none"
                         />
+                        {
+                            state.error.description &&
+                            <p className="text-red-600 bg-red-100 border border-red-400 rounded-md px-3 py-2 text-sm mt-2">
+                                {state.error.description}
+                            </p>
+
+                        }
                     </div>
 
                     {/* Button */}
-                    <SubmitBtn/>
+                    <SubmitBtn />
                 </form>
             </div>
         </>
