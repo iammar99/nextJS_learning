@@ -82,7 +82,8 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 69](#lecture-no-69)
   - [Lecture No 70](#lecture-no-70)
   - [Lecture No 71](#lecture-no-71)
-  - [Lecture No 71](#lecture-no-71-1)
+  - [Lecture No 72](#lecture-no-72)
+  - [Lecture No 73](#lecture-no-73)
 
 
 ## Lecture no 1
@@ -841,9 +842,15 @@ For handling errors, define and export a React component in error.tsx
   
   `Look for code in (Data fetching) > user-parallel`
 
+------------------------------------------------------------------
 
 
-## Lecture No 71
+`**From Here I used Part 2**`
+
+
+------------------------------------------------------------------
+
+## Lecture No 72
   -  Fetching from a database
   <br
 
@@ -876,5 +883,27 @@ For handling errors, define and export a React component in error.tsx
   ```
   npx prisma migrate dev --name init
   ```
+
+  **I  used  MongoDB**
   
-  `Look for code in (Data fetching) > user-parallel`
+  `Look for code in product-db`
+
+
+
+
+
+  
+
+
+## Lecture No 73
+  -  Data Mutation
+  <br
+
+  **CRUD**
+  - Create
+  - Read
+  - Update
+  - Delete
+  
+
+  `Look for code in product-db + product-form`
