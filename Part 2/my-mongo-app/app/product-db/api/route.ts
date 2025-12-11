@@ -1,4 +1,4 @@
-import { deleteProduct } from "@/src/lib/product-db";
+import { deleteProduct } from "@/lib/product-db";
 
 export async function POST(request: Request) {
   try {

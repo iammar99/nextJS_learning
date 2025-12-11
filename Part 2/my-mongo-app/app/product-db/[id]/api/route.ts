@@ -1,4 +1,4 @@
-import { updateProduct } from "@/src/lib/product-db";
+import { updateProduct } from "@/lib/product-db";
 
 export async function POST(
     request: Request,

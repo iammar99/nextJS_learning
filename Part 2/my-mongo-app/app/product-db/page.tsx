@@ -1,4 +1,4 @@
-import { getProducts } from "@/src/lib/product-db";
+import { getProducts } from "@/lib/product-db";
 import ProductsPageClient from "./ProductsPageClient";
 
 export default async function Page({

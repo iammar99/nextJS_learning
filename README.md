@@ -95,6 +95,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 82](#lecture-no-82)
   - [Lecture No 83](#lecture-no-83)
   - [Lecture No 84](#lecture-no-84)
+  - [Lecture No 85](#lecture-no-85)
 
 
 ## Lecture no 1
@@ -1076,3 +1077,11 @@ With Next.js, you've got to protect your app from three different angles: client
   1. Register or sign-in 
   2. create application
   3. follow the givven steps
+   
+
+   
+## Lecture No 85
+  -  Sign in and Sign out
+  <br>
+  
+  Just Use Clerk given Sign in and Sign Out button

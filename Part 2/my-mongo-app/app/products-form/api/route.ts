@@ -1,4 +1,4 @@
-import { addProduct } from "@/src/lib/product-db"
+import { addProduct } from "@/lib/product-db"
 
 export async function POST(request:Request){
     const body = await request.json()
