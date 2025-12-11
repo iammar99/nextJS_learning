@@ -1,10 +1,25 @@
-import Form from "next/form"
+"use client"
 
+import Form from "next/form"
+import { useRef } from "react"
 
 export default function SearchComponent() {
+    const formRef = useRef<HTMLFormElement>(null)
+    
+    const handleSubmit = () => {
+        setTimeout(() => {
+            formRef.current?.reset()
+        }, 100)
+    }
+
     return (
         <div className="relative" id="input">
-            <Form action={"/product-db"} className="flex">
+            <Form 
+                action={"/product-db"} 
+                className="flex"
+                ref={formRef}
+                onSubmit={handleSubmit}
+            >
                 <input
                     defaultValue=""
                     name="query"

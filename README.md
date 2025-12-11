@@ -93,6 +93,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 80](#lecture-no-80)
   - [Lecture No 81](#lecture-no-81)
   - [Lecture No 82](#lecture-no-82)
+  - [Lecture No 83](#lecture-no-83)
 
 
 ## Lecture no 1
@@ -1032,3 +1033,33 @@ We'll use "pending" to disable our submit button while the form is being process
   3. it'll show the loading state while the search results are being fetched 4. once the data is ready, the results are displayed in the UI
 
 
+   
+
+   
+## Lecture No 83
+  -  Authentication
+  <br>
+
+  Most apps revolve around users
+- When building for users, we need to consider three fundamental concepts:
+- Identity - verifying who someone is through authentication
+- Sessions - keep track of a user's logged-in state across requests
+- Access - controls what they can do
+In developer terms, we call these authentication, session management, and authorization
+
+
+With React single-page apps, you're only dealing with client-side code
+
+With Next.js, you've got to protect your app from three different angles: client-side, server-side, and API routes
+
+
+**Authentication**
+
+1. Let users sign up
+2. Give them a way to sign in
+3. Enable them to manage their account (password changes, email updates, etc.)
+4. Show or hide UI elements based on whether they're logged in
+5. Protect certain routes depending on authentication status
+6. Access session and user data when needed
+7. Set up role-based access control (admin, editor, viewer, and so on)
+8. Provide a way to sign out
