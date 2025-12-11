@@ -7,6 +7,7 @@ export default function SearchComponent() {
     const formRef = useRef<HTMLFormElement>(null)
     
     const handleSubmit = () => {
+
         setTimeout(() => {
             formRef.current?.reset()
         }, 100)

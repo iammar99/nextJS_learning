@@ -2,7 +2,7 @@
 
 
 import { redirect } from "next/navigation"
-import { addProduct } from "@/lib/product-db"
+import { addProduct } from "@/src/lib/product-db"
 
 
 export type Error = {

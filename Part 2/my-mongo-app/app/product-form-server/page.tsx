@@ -1,8 +1,8 @@
 "use client"
 
-import SubmitBtn from "@/Components/SubmitBtn";
+import SubmitBtn from "@/src/Components/SubmitBtn";
 import { useActionState } from "react";
-import { handleAddProduct, FormState } from "@/action/product";
+import { handleAddProduct, FormState } from "@/src/action/product";
 
 
 export default function Page() {

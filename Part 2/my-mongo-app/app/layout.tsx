@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/Components/Header";
+import { ClerkProvider } from "@clerk/nextjs";
 
 
 export const metadata: Metadata = {
@@ -14,11 +15,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body style={{ margin: "0", padding: "0", boxSizing: "border-box", display: "flex", flexDirection: "column", minHeight: "100vh" }}>
-        <Header /> 
-        {children}
-      </body>
-    </html>
+    <ClerkProvider>
+      <html lang="en">
+        <body style={{ margin: "0", padding: "0", boxSizing: "border-box", display: "flex", flexDirection: "column", minHeight: "100vh" }}>
+          <Header />
+          {children}
+        </body>
+      </html>
+    </ClerkProvider>
   )
 }

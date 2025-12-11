@@ -94,6 +94,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 81](#lecture-no-81)
   - [Lecture No 82](#lecture-no-82)
   - [Lecture No 83](#lecture-no-83)
+  - [Lecture No 84](#lecture-no-84)
 
 
 ## Lecture no 1
@@ -1063,3 +1064,15 @@ With Next.js, you've got to protect your app from three different angles: client
 6. Access session and user data when needed
 7. Set up role-based access control (admin, editor, viewer, and so on)
 8. Provide a way to sign out
+
+   
+
+   
+## Lecture No 84
+  -  Clerk Setup
+  <br>
+
+  Just basic setup 
+  1. Register or sign-in 
+  2. create application
+  3. follow the givven steps

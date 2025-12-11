@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import DeleteBtn from "@/Components/DeleteBtn";
+import DeleteBtn from "@/src/Components/DeleteBtn";
 
 export type Product = {
   _id: string; // MongoDB _id

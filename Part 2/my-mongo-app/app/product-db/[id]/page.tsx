@@ -1,4 +1,4 @@
-import { getProduct } from "@/lib/product-db";
+import { getProduct } from "@/src/lib/product-db";
 import ProductDetailPage from "./productPageClient";
 
 type Product = {
