@@ -1,7 +1,7 @@
 // components/Header.js
 import Link from 'next/link';
 import SearchComponent from './SearchComponent';
-import { SignInButton, SignOutButton, UserButton, UserProfile } from '@clerk/nextjs';
+import { SignedIn, SignedOut, SignInButton, SignOutButton, UserButton, UserProfile } from '@clerk/nextjs';
 
 export default function Header() {
     return (
@@ -9,12 +9,34 @@ export default function Header() {
             <nav className="bg-white border-gray-200 py-4 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <div className="flex items-center lg:order-2">
-                        <SearchComponent/>
-                        <SignInButton mode='modal'/>
-                        <Link href={"/user-profile"}>Profile</Link>
-                        {/* <UserButton/> */}
-                        <SignOutButton/>
-                        <Link href="#" className="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800">
+                        <SearchComponent />
+                        <SignedOut>
+                            <SignInButton mode='modal'>
+                                <button className="bg-slate-700/50 hover:cursor-pointer mx-4 text-slate-200 hover:bg-slate-700 hover:text-white border border-slate-600 font-medium rounded-lg text-sm px-5 py-2.5 transition-all">
+                                    Sign In
+                                </button>
+                            </SignInButton>
+                        </SignedOut>
+
+                        <SignedIn>
+                            <Link
+                                href={"/user-profile"}
+                                className="inline-block bg-slate-700/50 hover:cursor-pointer mx-4 text-slate-200 hover:bg-slate-700 hover:text-white border border-slate-600 font-medium rounded-lg text-sm px-5 py-2.5 transition-all"
+                            >
+                                Profile
+                            </Link>
+
+                            <SignOutButton>
+                                <button className="bg-red-600/20 hover:cursor-pointer mx-4 text-red-400 hover:bg-red-600 hover:text-white border border-red-600/50 font-medium rounded-lg text-sm px-5 py-2.5 transition-all">
+                                    Sign Out
+                                </button>
+                            </SignOutButton>
+                        </SignedIn>
+
+                        <Link
+                            href="#"
+                            className="inline-block text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 focus:ring-4 focus:ring-blue-400/50 font-semibold rounded-lg text-sm px-6 py-2.5 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                        >
                             Get started
                         </Link>
                         <button data-collapse-toggle="mobile-menu-2" type="button" className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">

@@ -96,6 +96,8 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 83](#lecture-no-83)
   - [Lecture No 84](#lecture-no-84)
   - [Lecture No 85](#lecture-no-85)
+  - [Lecture No 86](#lecture-no-86)
+  - [Lecture No 87](#lecture-no-87)
 
 
 ## Lecture no 1
@@ -1088,8 +1090,15 @@ With Next.js, you've got to protect your app from three different angles: client
    
 
    
-## Lecture No 85
+## Lecture No 86
   -  Profile Settings
   <br>
   
   Just Use Clerk given userButton and userProfile
+
+   
+## Lecture No 87
+  -  Conditional UI Rendering
+  <br>
+  
+  Just Use Clerk given SignedIn and SignedOut tags to wrap sign in button
