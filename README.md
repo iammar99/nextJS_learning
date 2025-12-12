@@ -98,6 +98,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 85](#lecture-no-85)
   - [Lecture No 86](#lecture-no-86)
   - [Lecture No 87](#lecture-no-87)
+  - [Lecture No 88](#lecture-no-88)
 
 
 ## Lecture no 1
@@ -1102,3 +1103,12 @@ With Next.js, you've got to protect your app from three different angles: client
   <br>
   
   Just Use Clerk given SignedIn and SignedOut tags to wrap sign in button
+
+   
+## Lecture No 88
+  -  Protecting Routes
+  <br>
+  
+  Just Use Clerk createRouteMatcher 
+
+  `Look for code in middleware.ts`
