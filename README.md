@@ -1085,3 +1085,11 @@ With Next.js, you've got to protect your app from three different angles: client
   <br>
   
   Just Use Clerk given Sign in and Sign Out button
+   
+
+   
+## Lecture No 85
+  -  Profile Settings
+  <br>
+  
+  Just Use Clerk given userButton and userProfile
