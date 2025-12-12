@@ -99,6 +99,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 86](#lecture-no-86)
   - [Lecture No 87](#lecture-no-87)
   - [Lecture No 88](#lecture-no-88)
+  - [Lecture No 89](#lecture-no-89)
 
 
 ## Lecture no 1
@@ -1112,3 +1113,12 @@ With Next.js, you've got to protect your app from three different angles: client
   Just Use Clerk createRouteMatcher 
 
   `Look for code in middleware.ts`
+
+   
+## Lecture No 89
+  -  Read Session and User Data
+  <br>
+  
+  It is used to get session data and auth object both in server and client component
+
+  `Look for code in dashboard and counter folder`
