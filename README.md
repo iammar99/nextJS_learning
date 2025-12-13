@@ -100,6 +100,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 87](#lecture-no-87)
   - [Lecture No 88](#lecture-no-88)
   - [Lecture No 89](#lecture-no-89)
+  - [Lecture No 90](#lecture-no-90)
 
 
 ## Lecture no 1
@@ -1122,3 +1123,21 @@ With Next.js, you've got to protect your app from three different angles: client
   It is used to get session data and auth object both in server and client component
 
   `Look for code in dashboard and counter folder`
+
+   
+## Lecture No 90
+  -  Role Based Access Control
+  <br>
+  
+  - Most apps need more than just checking if someone's logged in or not
+  - They need different permission levels for different users
+  - How to implement role-based access control (RBAC) using Clerk
+
+  - **Configure the session token**
+      - Clerk gives us something called user metadata, which is like a storage space for extra user information
+      - we'll use it to store user roles
+      - publicMetadata because it's read-only in the browser, making it super secure for storing sensitive information like user roles
+      - to build a basic RBAC system, we need to make sure this publicMetadata is readily available in the session token
+      - we can quickly check user roles without having to make extra network requests every time we need this information
+
+  `Look for code in admin folder and middleware file`
