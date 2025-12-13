@@ -102,6 +102,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 89](#lecture-no-89)
   - [Lecture No 90](#lecture-no-90)
   - [Lecture No 91](#lecture-no-91)
+  - [Lecture No 92](#lecture-no-92)
 
 
 ## Lecture no 1
@@ -1151,4 +1152,13 @@ With Next.js, you've got to protect your app from three different angles: client
 
   We can customize Clerk component  
   `Look code at Customization/Header folder and sign in Folder`
+  
+
+   
+## Lecture No 92
+  -  Deploying Next.js Apps to Vercel
+  <br>
+
+  **Link to this video:-** [Video Link](https://www.youtube.com/watch?v=eJBQqzXmTeM)
+
   
