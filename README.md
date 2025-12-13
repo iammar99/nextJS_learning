@@ -101,6 +101,7 @@ This is my first **Next.js** App . I'm Learning Next.js From Youtube Channel [Co
   - [Lecture No 88](#lecture-no-88)
   - [Lecture No 89](#lecture-no-89)
   - [Lecture No 90](#lecture-no-90)
+  - [Lecture No 91](#lecture-no-91)
 
 
 ## Lecture no 1
@@ -1141,3 +1142,13 @@ With Next.js, you've got to protect your app from three different angles: client
       - we can quickly check user roles without having to make extra network requests every time we need this information
 
   `Look for code in admin folder and middleware file`
+
+   
+## Lecture No 91
+  -  Customizing Clerk Components
+  <br>
+
+
+  We can customize Clerk component  
+  `Look code at Customization/Header folder and sign in Folder`
+  
